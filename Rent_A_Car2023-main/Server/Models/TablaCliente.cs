@@ -6,7 +6,7 @@ namespace Rent_A_Car2023.Server.Models;
 public class TablaCliente
 {
     [Key]
-            public int Id {get; set;}
+            public int Id {get; set;} 
             public string Cedula {get; set;} = null!;
             public string Nombre {get; set;} = null!;
             public string Apellidos {get; set;} = null!;
