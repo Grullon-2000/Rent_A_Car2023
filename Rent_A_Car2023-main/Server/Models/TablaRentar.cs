@@ -7,6 +7,7 @@ public class TablaRentar
 {
     [Key]
             public int Id {get; set;}
+            
             public string Matricula {get; set;} = null!;
             public string FechaSalida {get; set;} = null!;
             public string FechaEntregar {get; set;} = null!;
